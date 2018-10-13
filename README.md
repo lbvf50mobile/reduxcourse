@@ -21,7 +21,7 @@
 - Now you know the third and the last priciple of `Redux`: **To describe safe mutations you have to write a function that takes a previous state of the app, the action been dispatched, and returns the next state of the app. And this function has to be pure. This function is called a REDUSER**
 
 ## [Redux: Writing a Counter Reducer with Tests](https://egghead.io/lessons/react-redux-writing-a-counter-reducer-with-tests)
-- https://github.com/mjackson/expect
+- [Michael Jackson expect lib used in course](https://github.com/mjackson/expect)
 
 
 # [Russian WebPack](http://learn.javascript.ru/screencast/webpack)
