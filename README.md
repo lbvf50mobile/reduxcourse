@@ -23,4 +23,10 @@
 
 # [Russian WebPack](http://learn.javascript.ru/screencast/webpack)
 - [Webpack 1: intro](https://youtu.be/kLMjOd-x0aQ)
-- [Adding react](https://maxfarseer.gitbooks.io/react-course-ru/content/podklyuchaem_react.html)
+- [Webpack 2.1: Simple pack smiple config](https://youtu.be/DJSZKf9GkUs)
+    - [Node js reqire](https://www.w3schools.com/nodejs/nodejs_modules.asp)
+    - [Understangin module.expmorts and exprots in Node.js](https://www.sitepoint.com/understanding-module-exports-exports-node-js/)
+
+
+
+# [Adding react](https://maxfarseer.gitbooks.io/react-course-ru/content/podklyuchaem_react.html)
