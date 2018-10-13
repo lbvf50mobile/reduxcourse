@@ -26,6 +26,7 @@
 - [Webpack 2.1: Simple pack smiple config](https://youtu.be/DJSZKf9GkUs)
     - [Node js reqire](https://www.w3schools.com/nodejs/nodejs_modules.asp)
     - [Understangin module.expmorts and exprots in Node.js](https://www.sitepoint.com/understanding-module-exports-exports-node-js/)
+    - [Understanding JavaScript Modules: Bundling & Transpiling](https://www.sitepoint.com/javascript-modules-bundling-transpiling/)
 
 
 
