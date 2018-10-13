@@ -20,6 +20,8 @@
 - It is not has to be slow, for example if I change the visibility filter I need to create a new object for the all state but I can keep a reference to the previous version of todo's array because it has now change when I change the visibility filter. this is what makes `Redux` fast.
 - Now you know the third and the last priciple of `Redux`: **To describe safe mutations you have to write a function that takes a previous state of the app, the action been dispatched, and returns the next state of the app. And this function has to be pure. This function is called a REDUSER**
 
+## [Redux: Writing a Counter Reducer with Tests](https://egghead.io/lessons/react-redux-writing-a-counter-reducer-with-tests)
+
 
 # [Russian WebPack](http://learn.javascript.ru/screencast/webpack)
 - [Webpack 1: intro](https://youtu.be/kLMjOd-x0aQ)
