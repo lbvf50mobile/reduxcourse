@@ -31,6 +31,7 @@
     - [Node js reqire](https://www.w3schools.com/nodejs/nodejs_modules.asp)
     - [Understangin module.expmorts and exprots in Node.js](https://www.sitepoint.com/understanding-module-exports-exports-node-js/)
     - [Understanding JavaScript Modules: Bundling & Transpiling](https://www.sitepoint.com/javascript-modules-bundling-transpiling/)
+    - https://github.com/webpack/webpack-cli/issues/230
 - [Webpack: 2.2: Simple pack external access to modules](https://youtu.be/AUS-QEp4NUo)
 
 

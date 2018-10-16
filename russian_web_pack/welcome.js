@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = message =>  alert(`Welcome ${message}`);
+module.exports = message =>  alert(`This is my message: Welcome ${message}`);
