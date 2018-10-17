@@ -32,6 +32,21 @@
 - So if we are on this tests they are actually going to fail because we have not even began to implement how reducer works.
 - We going to start by checing the action type.
 - And if the checking type is increment we going to return `state + 1`, but if it's a decrement we going to return `state - 1`
+- If you run the test we will find that this is enough to get them to pass.
+- How ever there still some falls in our current implementation, of the counter `reducer`.
+- For example I think that: If we dispatch an action that it is not understand it should return a current state of application. 
+- However if we check for that we will see that this test fails because we currently do no handle unknown actin.
+- So I going to add an `else` clause that return the current state.
+- And the test pass now.
+- Another issues is that while the `reducer` is incontroll of application state currenlty it is not specify an initiall state.
+- I case of counter example it would be 0.
+- The convention we used in `redux`: if the `reducer` recieves the `undefined` as the state argument it must return what it's consideres to be `initial state` of the application.
+- And in this case it would be 0.
+- Now come a few cosmetic tweaks.
+- I will replace a bunch of `if` with `switch` statement.
+- And I going to replace this condition with  `ES6` defalut argument (wich looks better.)
+- I'm also going to replace the `function` declaration with an `arrow function` wich has clearer semantics in `ES6`.
+
 
 ## [Redux: Store Methods: getState(), dispatch(), and subscribe()](https://egghead.io/lessons/react-redux-store-methods-getstate-dispatch-and-subscribe)
 
