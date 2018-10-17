@@ -22,6 +22,17 @@
 
 ## [Redux: Writing a Counter Reducer with Tests](https://egghead.io/lessons/react-redux-writing-a-counter-reducer-with-tests)
 - [Michael Jackson expect lib used in course](https://github.com/mjackson/expect)
+- The frist functin we going to write is a `reducer` for the counter example.
+- And `reducer` exepts `state` and `action` as arguments. And returns the `next state`.
+- But before we shall jump into implementation we going to make cirtain assertions. Using Michel Jeackson expect library.
+- We going assert that when the state of the counter is `zero` and you pass an increment action it should return `one`.
+- And similarly it should return `two` when the state is `one` and you `increment`.
+- We going to add a couple of test that tests how `decrement` works, which is decrements from 2 to 1 and from 1 to 0.
+- And we going to add log to tell if our test are successfull.
+- So if we are on this tests they are actually going to fail because we have not even began to implement how reducer works.
+- We going to start by checing the action type.
+- And if the checking type is increment we going to return `state + 1`, but if it's a decrement we going to return `state - 1`
+
 ## [Redux: Store Methods: getState(), dispatch(), and subscribe()](https://egghead.io/lessons/react-redux-store-methods-getstate-dispatch-and-subscribe)
 
 
