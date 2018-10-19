@@ -61,6 +61,7 @@
     - [Remove wepback minimization](https://github.com/webpack/webpack/issues/6619)
     - ![Shcheme of this 2.1 module](scans/webpack2_1.jpg?raw=true "Shcheme of this 2.1 module")
 - [Webpack: 2.2: Simple pack external access to modules](https://youtu.be/AUS-QEp4NUo)
+    - [output.library](https://webpack.js.org/configuration/output/#output-library)
 
 
 
