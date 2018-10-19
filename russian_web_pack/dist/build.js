@@ -1,3 +1,4 @@
+var libvar =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -93,6 +94,8 @@
 let welcome = __webpack_require__(1);
 
 welcome("home")
+
+exports.exportname1 =  welcome
 
 /***/ }),
 /* 1 */

@@ -3,7 +3,8 @@
 module.exports = {
     entry: './home',
     output: {
-      filename: 'build.js'
+      filename: 'build.js',
+      library: 'libvar'
     },
     optimization: {
       minimize: false
