@@ -11,11 +11,18 @@ var isSpy = expect.isSpy
 expect(1).toBe(1, "1 is 1")
 console.log("it works")
 
-const counter =  (state, action) => {
-    if('undefined' == typeof state) return 0
-    if('INCREMENT' == action.type) return state + 1
-    if('DECREMENT' == action.type) return state - 1
-    return state;
+const counter =  (state=0, action) => {
+    console.log(action)
+    console.log(action.type)
+    console.log(action.z)
+   switch(action.type){
+    case 'INCREMENT':
+        return state+1;
+    case 'DECREMENT':
+        return state-1;
+    default:
+        return state;
+   }
 }
 
 expect(
