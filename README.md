@@ -22,6 +22,7 @@
 
 ## [Redux: Writing a Counter Reducer with Tests](https://egghead.io/lessons/react-redux-writing-a-counter-reducer-with-tests)
 - [Michael Jackson expect lib used in course](https://github.com/mjackson/expect)
+- `npm install -g expect`
 - The frist functin we going to write is a `reducer` for the counter example.
 - And `reducer` exepts `state` and `action` as arguments. And returns the `next state`.
 - But before we shall jump into implementation we going to make cirtain assertions. Using Michel Jeackson expect library.
