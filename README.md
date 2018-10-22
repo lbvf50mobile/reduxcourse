@@ -50,6 +50,7 @@
 
 
 ## [Redux: Store Methods: getState(), dispatch(), and subscribe()](https://egghead.io/lessons/react-redux-store-methods-getstate-dispatch-and-subscribe)
+- I added `Redux` to the our applications as a script tag from `cdnjs` and this is an `umd` build so it's exports a single global variable called `Redux` with the capital `R`.
 
 
 # [Russian WebPack](http://learn.javascript.ru/screencast/webpack)
