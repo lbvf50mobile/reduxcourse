@@ -76,7 +76,7 @@ survies for our example.
 - So I extract this loginc into the `render` method, I subscribe the redner method to the `store` and I also call it ones to reders inital state.
 - Now it's renders the zero and the click is increment the counter.
 - And this is our first working `Redux` application.
-
+- ![Redux Store: getState(), dispatch(), subsribe();](scans/reduxstore.jpg?raw=true "Redux Store: getState(), dispatch(), subsribe();")
 
 
 # [Russian WebPack](http://learn.javascript.ru/screencast/webpack)
