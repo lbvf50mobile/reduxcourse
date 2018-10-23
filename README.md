@@ -49,8 +49,34 @@
 - I'm also going to replace the `function` declaration with an `arrow function` wich has clearer semantics in `ES6`.
 
 
-## [Redux: Store Methods: getState(), dispatch(), and subscribe()](https://egghead.io/lessons/react-redux-store-methods-getstate-dispatch-and-subscribe)
+## [Redux: Store Methods: getState(), dispatch(), and subscribe()](https://egghead.io/lessons/react-redux-store-methods-getstate-dispatch-and-subscribe) 
+
 - I added `Redux` to the our applications as a script tag from `cdnjs` and this is an `umd` build so it's exports a single global variable called `Redux` with the capital `R`.
+- And in real applications I sugest you to use npm instead and module bunlder as like `webpack` or `browserfy` bu `umd` build will
+survies for our example.
+- I going to need just a single functions from `Redux` called **createStore**.
+- I'm useing `ES6` destructuring syntax here. It's equivalent to write `var createStore = Redux.createStore`
+- Or if you use `NPM` or something like `Babel` to transpile you `ES6` you can write `import { createStore } from 'redux'` (notice the parenthesis).
+- The `Store` binds together the three pinciples of `Redux`
+    - it holds the current applications state object
+    - it lets you dispatch actions
+    - and when you create it you need to specify a `Reducer`, that tells how `sate` is updated with `actions`.
+- In this example we calling the `createStore` with `counter` as a `reducer` that manages the `state` updates.
+- The store has 3 important methods:
+- The first method of the store is called a `getState()` and it's retriews the current state of  the `Redux` store.
+- if we run this we going to see `0` because this is an initial state of our application.
+- The second and the most commonly used `Store` method is  called `dispatch()` and lets you dispatch `actions` to change the `state` of your application.
+- If we log the `storeState` after `dispatch` we going to see that it has changed.
+- Ofcourse always loging to the console becomes boring so we actually going to render something to the body now. 
+- With the help of the third  `Redux store` method called `subscribe()`.
+- It lets you register a callback that the `Redux Store` will call any time an actions has been dispatched.
+- So that you can updated the UI of your application to refact the current application state.
+- And I'm been very naive now, I'm not using `React` or anything. I'm just rendering the counter into the document body anytime the body is clicked I'm going to dispatch an action to increment this counter.
+- Now if you pay close attention you will notice that the initial state the `0` is not rendered, and this is because I'm rendering insite the `subscribe` callback, but it dose not actually fired the very first time. 
+- So I extract this loginc into the `render` method, I subscribe the redner method to the `store` and I also call it ones to reders inital state.
+- Now it's renders the zero and the click is increment the counter.
+- And this is our first working `Redux` application.
+
 
 
 # [Russian WebPack](http://learn.javascript.ru/screencast/webpack)
