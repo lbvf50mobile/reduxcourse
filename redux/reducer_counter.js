@@ -5,16 +5,8 @@ var expect = require('expect')
 var createSpy = expect.createSpy
 var spyOn = expect.spyOn
 var isSpy = expect.isSpy
-
-
-
 expect(1).toBe(1, "1 is 1")
-console.log("it works")
-
 const counter =  (state=0, action) => {
-    console.log(action)
-    console.log(action.type)
-    console.log(action.z)
    switch(action.type){
     case 'INCREMENT':
         return state+1;
@@ -24,7 +16,6 @@ const counter =  (state=0, action) => {
         return state;
    }
 }
-
 expect(
     counter(0,{type:  'INCREMENT'})
 ).toEqual(1)
@@ -49,4 +40,4 @@ expect(
     counter(undefined,{})
 ).toEqual(0)
 
-console.log('Tests Passed!')
+module.exports = counter
