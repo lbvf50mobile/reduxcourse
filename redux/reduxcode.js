@@ -5,7 +5,7 @@ import { createStore } from 'redux'
 
 let store = createStore(counter)
 let render = () => {
-    document.body.innerText = store.getState() + "This is a render1"; 
+    document.body.innerText = store.getState(); 
 }
 
 store.subscribe(render)

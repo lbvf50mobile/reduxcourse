@@ -16207,7 +16207,7 @@ let counter = __webpack_require__(3);
 
 let store = createStore(counter)
 let render = () => {
-    document.body.innerText = store.getState() + "This is a render1"; 
+    document.body.innerText = store.getState(); 
 }
 
 store.subscribe(render)
