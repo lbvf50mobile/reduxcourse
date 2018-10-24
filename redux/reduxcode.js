@@ -4,6 +4,10 @@ let counter = require('./reducer_counter');
 import { createStore } from 'redux'
 
 let store = createStore(counter)
-console.log(store.getState(),"this is getState")
-store.dispatch({type: 'INCREMENT'})
-console.log(store.getState(),"this is getState after dispatch")
+store.subscribe(()=>{
+   document.body.innerText = store.getState(); 
+})
+
+document.addEventListener('click',()=>{
+    store.dispatch({type: "INCREMENT"})
+})
