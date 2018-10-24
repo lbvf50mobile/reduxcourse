@@ -16206,9 +16206,11 @@ let counter = __webpack_require__(3);
 
 
 let store = createStore(counter)
-store.subscribe(()=>{
-   document.body.innerText = store.getState(); 
-})
+let render = () => {
+    document.body.innerText = store.getState() + "This is a render1"; 
+}
+
+store.subscribe(render)
 
 document.addEventListener('click',()=>{
     store.dispatch({type: "INCREMENT"})
