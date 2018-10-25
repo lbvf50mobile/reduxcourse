@@ -78,6 +78,8 @@ survies for our example.
 - And this is our first working `Redux` application.
 - ![Redux Store: getState(), dispatch(), subsribe();](scans/reduxstore.jpg?raw=true "Redux Store: getState(), dispatch(), subsribe();")
 
+## [Redux: Implementing Store from Scratch](https://egghead.io/lessons/react-redux-implementing-store-from-scratch)
+
 
 # [Russian WebPack](http://learn.javascript.ru/screencast/webpack)
 - [Webpack 1: intro](https://youtu.be/kLMjOd-x0aQ)
