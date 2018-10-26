@@ -94,7 +94,7 @@ survies for our example.
 - There is an important missing peace here. We have not provided a way to unsubscribe a listener.
 - But instead of adding a dedicated unsubscribe method, we will just return a function from the `subscribe` method, that return this listener from the `listeners` array. 
 - Finally by the time the `store` is returned we wanted to have the initial state populated. So we going to dispatch the dummy action just to get the `reducer` to return an initial value.
-- This implementation of `Redux Store` appart a view minor details
+- This implementation of `Redux Store` appart a view minor details and endge cases is a `Redux Store` that shiped with `Redux`.
 
 # [Russian WebPack](http://learn.javascript.ru/screencast/webpack)
 - [Webpack 1: intro](https://youtu.be/kLMjOd-x0aQ)
