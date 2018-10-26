@@ -79,7 +79,22 @@ survies for our example.
 - ![Redux Store: getState(), dispatch(), subsribe();](scans/reduxstore.jpg?raw=true "Redux Store: getState(), dispatch(), subsribe();")
 
 ## [Redux: Implementing Store from Scratch](https://egghead.io/lessons/react-redux-implementing-store-from-scratch)
-
+- In the previeous vidoe we looked how to implement a simple counter example using the `createStore` function provided by `Redux`. 
+- And the `store` object it's returns that privides the `getState` method to get the current application state, the `dispatch` method to change the current application state by dispatching an action, and `subscribe` method to describe to the changes and rerender our application with a current state of the app. 
+- If you like me you prefer to understand the tools that you are using. So in this tutorial we going to reiomplemnt the CreateStore function provided by Redux from Scratch.
+- The first and the only that we know so far argument to the createStore function is a `reducer` function provided by the application.
+- And we know that the `store` holds current state. So we keep it in a variable.
+- And the `getState` funciton going to return the curren value of that variable.
+- This function combined with a `dispatch` function, and the `subscribe` function on a single object that we call a `ReduxStore` 
+- Because the subscribe funciton can be called many times we need to keep track of all the change listeners.
+- And every time it's called we need to push a listener in the array.
+- Dispatching an action is an only way to change the internal state.
+- And in order to calculate a new state we call a `reducer` with a current state and the `action` been dispatch.
+- And after the `state` was updated we need to notify every change linstener by calling it.
+- There is an important missing peace here. We have not provided a way to unsubscribe a listener.
+- But instead of adding a dedicated unsubscribe method, we will just return a function from the `subscribe` method, that return this listener from the `listeners` array. 
+- Finally by the time the `store` is returned we wanted to have the initial state populated. So we going to dispatch the dummy action just to get the `reducer` to return an initial value.
+- This implementation of `Redux Store` appart a view minor details
 
 # [Russian WebPack](http://learn.javascript.ru/screencast/webpack)
 - [Webpack 1: intro](https://youtu.be/kLMjOd-x0aQ)
