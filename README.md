@@ -107,7 +107,8 @@ survies for our example.
     - ![Shcheme of this 2.1 module](scans/webpack2_1.jpg?raw=true "Shcheme of this 2.1 module")
 - [Webpack: 2.2: Simple pack external access to modules](https://youtu.be/AUS-QEp4NUo)
     - [output.library](https://webpack.js.org/configuration/output/#output-library)
-
+- [Webpack: 2.3: Simple pack - rebuild on changes](https://youtu.be/85zatjhaOkE)
+- [Webpack: 2.4: Simple pack - Source map](https://youtu.be/v9gtHkynU5E)
 
 
 # [Adding react](https://maxfarseer.gitbooks.io/react-course-ru/content/podklyuchaem_react.html)
