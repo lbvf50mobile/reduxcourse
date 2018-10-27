@@ -96,6 +96,8 @@ survies for our example.
 - Finally by the time the `store` is returned we wanted to have the initial state populated. So we going to dispatch the dummy action just to get the `reducer` to return an initial value.
 - This implementation of `Redux Store` appart a view minor details and endge cases is a `Redux Store` that shiped with `Redux`.
 
+## [Redux: React counter example](https://egghead.io/lessons/react-redux-react-counter-example)
+
 # [Russian WebPack](http://learn.javascript.ru/screencast/webpack)
 - [Webpack 1: intro](https://youtu.be/kLMjOd-x0aQ)
 - [Webpack 2.1: Simple pack smiple config](https://youtu.be/DJSZKf9GkUs)
