@@ -112,5 +112,6 @@ survies for our example.
 - [Webpack: 2.3: Simple pack - rebuild on changes](https://youtu.be/85zatjhaOkE)
 - [Webpack: 2.4: Simple pack - Source map](https://youtu.be/v9gtHkynU5E)
 - [Webpack: 2.5: Simple pack - Environment, NODE_ENV](https://youtu.be/5XZqeuWkQ4o)
+- [Webpack: 2.6: Simple pack - Babel JS](https://youtu.be/J-Q7PcfyiGU)
 
 # [Adding react](https://maxfarseer.gitbooks.io/react-course-ru/content/podklyuchaem_react.html)
