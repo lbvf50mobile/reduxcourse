@@ -114,5 +114,6 @@ survies for our example.
 - [Webpack: 2.5: Simple pack - Environment, NODE_ENV](https://youtu.be/5XZqeuWkQ4o)
 - [Webpack: 2.6: Simple pack - Babel JS](https://youtu.be/J-Q7PcfyiGU)
 - [Webpack: 2.7: Simple pack - Resolving](https://youtu.be/vkK-h1bgUIE)
+- [Webpack: 2.8: Simple pack - Minification](https://youtu.be/ZLrzAhhbt6s)
 
 # [Adding react](https://maxfarseer.gitbooks.io/react-course-ru/content/podklyuchaem_react.html)
