@@ -97,6 +97,11 @@ survies for our example.
 - This implementation of `Redux Store` appart a view minor details and endge cases is a `Redux Store` that shiped with `Redux`.
 
 ## [Redux: React counter example](https://egghead.io/lessons/react-redux-react-counter-example)
+- In this simplest counter example I update a document body manually any time the `store.getState()` changes.
+- But ofcourse this uproach dose not scales for coplex applications.
+- So instead of manually updating the DOM I'm going to use React.
+- I'm addubg two scripts in  the Head correcpoding to `React` and `React DOM` packages. And the `root` div to reder to it.
+
 
 # [Russian WebPack](http://learn.javascript.ru/screencast/webpack)
 - [Webpack 1: intro](https://youtu.be/kLMjOd-x0aQ)
