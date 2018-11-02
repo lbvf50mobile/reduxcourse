@@ -101,7 +101,20 @@ survies for our example.
 - But ofcourse this uproach dose not scales for coplex applications.
 - So instead of manually updating the DOM I'm going to use React.
 - I'm addubg two scripts in  the Head correcpoding to `React` and `React DOM` packages. And the `root` div to reder to it.
-
+- Now I can cal `ReactDOM.render` with my `Root` component.
+- The render dunction is called any time the store is changes. So I can savely pass the current state of the store as a prop to my root component.
+- Since the change is held in React store, the `Counter` component could be a simple function. Which is a supported way of declaring components since React 14.
+- Now I want to add increment and decrement buttons to the component, but I do not want to hardcode a redux dependency to the component.
+- I just add onIncrement and onDecrement props as callbacks, and in my reder method I'll pass the callbacks that calls `store.dispatch`  appropriate actions.
+- Now applicatins state is updated when I click a buttions.
+- Now Let's recap how this appliction works.
+- The counter component is what I call a `dump` component. It dose not contain any business logic.
+- It's only specify how current application state transofms into the rederable output.
+- And how the callbacks passed via props are bound to the even hanlder.
+- When we render a counter we specify that it's value shuld be taken from the Redux Store Current state.
+- And when the user press `increment` or `decrement` we dispatch corresponding action to the redux store.
+- Our reducer specifiyes how the next state is calculated based on the current state and the action been dispatch.
+- And finally we subscibe to the redux store so our reder function runs the any time the state changes so the counter gets the current state.
 
 # [Russian WebPack](http://learn.javascript.ru/screencast/webpack)
 - [Webpack 1: intro](https://youtu.be/kLMjOd-x0aQ)
