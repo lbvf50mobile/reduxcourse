@@ -9,6 +9,14 @@ module.exports = {
     optimization: {
       minimize: false
     },
-    watch: true
+    module: {
+      rules: [
+        {
+          test: /\.js?$/,
+          exclude: /node_modules/,
+          loader: "babel-loader",
+        }
+      ]
+    }
   
 };

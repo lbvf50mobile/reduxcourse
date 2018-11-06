@@ -9,8 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "redux": "^4.0.1",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^7.0.4",
+    "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react": "^16.6.0"
+    "redux": "^4.0.1",
+    "webpack": "^4.25.1"
   }
 }
