@@ -25,4 +25,4 @@ document.addEventListener('click',()=>{
     store.dispatch({type: "INCREMENT"})
 })
 
-//ReactDOM.render(<h1>233</h1>,document.getElementById('root'))
+ReactDOM.render('<h1>233</h1>',document.getElementById('root'))

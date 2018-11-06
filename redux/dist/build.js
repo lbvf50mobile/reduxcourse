@@ -16662,6 +16662,7 @@ if (false) {}
 // https://www.npmjs.com/package/react-dom
 // https://www.npmjs.com/package/react
 // https://github.com/mapbox/node-sqlite3/issues/968#issuecomment-399702443
+// https://stackoverflow.com/questions/49370849/configuration-module-has-an-unknown-property-loaders
 
 let counter = __webpack_require__(5);
 var React = __webpack_require__(2);
@@ -16684,7 +16685,7 @@ document.addEventListener('click', () => {
     store.dispatch({ type: "INCREMENT" });
 });
 
-//ReactDOM.render(<h1>233</h1>,document.getElementById('root'))
+ReactDOM.render('<h1>233</h1>', document.getElementById('root'));
 
 /***/ })
 /******/ ]);
