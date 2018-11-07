@@ -25,4 +25,6 @@ document.addEventListener('click',()=>{
     store.dispatch({type: "INCREMENT"})
 })
 
+// https://www.valentinog.com/blog/react-webpack-babel/#How_to_set_up_React_webpack_and_Babel_setting_up_Babel
+// https://docs.npmjs.com/misc/scope
 ReactDOM.render(<h1>Test</h1>,document.getElementById('root'))
