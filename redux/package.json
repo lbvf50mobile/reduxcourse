@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-core": "^6.0.0",
-    "babel-loader": "^7.0.4",
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "redux": "^4.0.1",
