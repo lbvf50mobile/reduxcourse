@@ -133,5 +133,6 @@ survies for our example.
 - [Webpack: 2.6: Simple pack - Babel JS](https://youtu.be/J-Q7PcfyiGU)
 - [Webpack: 2.7: Simple pack - Resolving](https://youtu.be/vkK-h1bgUIE)
 - [Webpack: 2.8: Simple pack - Minification](https://youtu.be/ZLrzAhhbt6s)
+- [Webpack: 3.1: Several scripts - Several Entry points](https://youtu.be/JYP0e7uwgG0)
 
 # [Adding react](https://maxfarseer.gitbooks.io/react-course-ru/content/podklyuchaem_react.html)
