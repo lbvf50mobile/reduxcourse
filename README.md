@@ -116,6 +116,8 @@ survies for our example.
 - Our reducer specifiyes how the next state is calculated based on the current state and the action been dispatch.
 - And finally we subscibe to the redux store so our reder function runs the any time the state changes so the counter gets the current state.
 
+## [Redux: Avoiding Array Mutations with concat(), slice(), ans ...spread](https://egghead.io/lessons/react-redux-avoiding-array-mutations-with-concat-slice-and-spread)
+
 # [Russian WebPack](http://learn.javascript.ru/screencast/webpack)
 - [Webpack 1: intro](https://youtu.be/kLMjOd-x0aQ)
 - [Webpack 2.1: Simple pack smiple config](https://youtu.be/DJSZKf9GkUs)
